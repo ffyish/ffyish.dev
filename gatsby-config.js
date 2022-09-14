@@ -1,9 +1,11 @@
+const {SUBSITE_URL} = require("./config/util/subsite")
+
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `ffyish`,
+    description: `bbb`,
+    author: `@ffyish`,
+    siteUrl: SUBSITE_URL,
   },
   plugins: [
     `gatsby-plugin-image`,
